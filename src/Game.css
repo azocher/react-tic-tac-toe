@@ -7,7 +7,7 @@ body {
   
 .square {
     background: white;
-    border: 2px solid rgb(88,88,88);
+    border: 1px solid black;
     float: left;
     font-size: 48px;
     line-height: 100px;
@@ -18,7 +18,7 @@ body {
 }
 
 .square:hover {
-    opacity: 50%;
+    opacity: 80%;
 }
 
 .status-info {
@@ -33,18 +33,31 @@ body {
 
 #\30 {
     border-top-left-radius: 15px;
+    background-color: rgb(88,88,88);
+}
+
+#\31:hover, #\33:hover, #\35:hover, #\37:hover {
+    background-color: lightgray;
 }
 
 #\32 {
     border-top-right-radius: 15px;
+    background-color: rgb(88,88,88);
 }
+
+#\34 {
+    background-color: rgb(88,88,88);
+}
+
 
 #\36 {
     border-bottom-left-radius: 15px;
+    background-color: rgb(88,88,88);
 }
 
 #\38 {
     border-bottom-right-radius: 15px;
+    background-color: rgb(88,88,88);
 }
   
 .moves-info {

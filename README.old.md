@@ -11,7 +11,7 @@ You'll notice there are two options for setup that the tutorial offers. Do **Set
 
 ## Paste the link to your finished Github repo here:
 ```text
-// Link goes here
+// https://github.com/terryszhou/react-tic-tac-toe
 ```
 
 Get to at least the "Adding Time Travel" part of the tutorial.
