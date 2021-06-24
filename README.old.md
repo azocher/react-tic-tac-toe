@@ -11,7 +11,7 @@ You'll notice there are two options for setup that the tutorial offers. Do **Set
 
 ## Paste the link to your finished Github repo here:
 ```text
-// Link goes here
+https://github.com/BeckyBoo88/react-tic-tac-toe
 ```
 
 Get to at least the "Why Immutability is Important" part of the tutorial (this section here: https://reactjs.org/tutorial/tutorial.html#why-immutability-is-important).
