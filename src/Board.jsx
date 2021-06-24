@@ -1,14 +1,12 @@
-import React from 'react'
+import { Component } from 'react'
 import Square from './Square.jsx'
 
-export default class Board extends React.Component {
+export default class Board extends Component {
     renderSquare(i) {
-        return (
-            <Square 
-                value={this.props.squares[i]}
-                onClick={() => this.props.onClick(i)}
-            />
-        )
+        return <Square 
+            value={this.props.squares[i]} 
+            onClick={() => this.props.onClick(i)} 
+        />
     }
   
     render() {
@@ -30,6 +28,6 @@ export default class Board extends React.Component {
                     {this.renderSquare(8)}
                 </div>
             </div>
-        );
+        )
     }
 }
